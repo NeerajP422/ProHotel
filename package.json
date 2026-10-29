@@ -1,0 +1,32 @@
+{
+  "name": "hotelpro",
+  "version": "1.0.0",
+  "description": "HotelPro - Complete hotel booking and management solution project",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "server:dev": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "client:build": "cd client && npm run build",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [
+    "hotel-management",
+    "booking",
+    "hotelpro",
+    "mern",
+    "hospitality",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "jwt",
+    "bootstrap"
+  ],
+  "author": "HotelPro",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
